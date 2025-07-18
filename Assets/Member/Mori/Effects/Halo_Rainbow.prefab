@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4444601820364869777}
   - component: {fileID: 1444508523329655416}
   - component: {fileID: 1069622098485179763}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Halo_Rainbow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50,7 +50,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 1
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:

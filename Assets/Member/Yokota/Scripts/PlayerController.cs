@@ -1,0 +1,44 @@
+using FishMovement;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerController : MonoBehaviour
+{
+    private void Update()
+    {
+        // éTÇ´âaÇÃï‚è[
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            GameManager.Instance.ChargeBait();
+        }
+
+        switch (GameManager.Instance.State)
+        {
+            case GameState.None:
+                break;
+            case GameState.Stay:
+                break;
+            case GameState.Fish:
+                // éTÇ´âaÇÇ∑ÇÈ
+                if (Input.GetMouseButtonDown(1))
+                {
+                    GameManager.Instance.Bait();
+                }
+                // íﬁÇËè„Ç∞ÇÈ
+                if (Input.GetMouseButtonDown(0))
+                {
+                    GameManager.Instance.Fish();
+                }
+                break;
+            case GameState.Show:
+                if (Input.GetMouseButtonDown(0))
+                {
+                    GameManager.Instance.EndFishResult();
+                }
+                break;
+            default:
+                break;
+        }
+    }
+}

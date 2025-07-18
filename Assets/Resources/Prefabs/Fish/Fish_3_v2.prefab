@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4405169574915231488}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:BodyFinLowerA_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23,6 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 46789445843607907}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.51344734, w: 0.8581211}
   m_LocalPosition: {x: -0.014451025, y: -0.025624294, z: -3.8441472e-17}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -30,7 +31,6 @@ Transform:
   m_Children:
   - {fileID: 3816863253753246450}
   m_Father: {fileID: 5852502040498062157}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &409729207030038345
 GameObject:
@@ -41,7 +41,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6992530122247156968}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:BodyFinSide3_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,6 +55,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 409729207030038345}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.0698286, y: 0.08582584, z: -0.10068248, w: 0.9887472}
   m_LocalPosition: {x: 0.024521738, y: 5.3290704e-17, z: 2.220446e-18}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -62,7 +63,6 @@ Transform:
   m_Children:
   - {fileID: 6638664588120959555}
   m_Father: {fileID: 3624888628702715936}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &610627540152958872
 GameObject:
@@ -73,7 +73,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5852502040498062157}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:BackA_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,6 +87,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 610627540152958872}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.0030846098, y: -0.052948758, z: 0.058076046, w: 0.9969023}
   m_LocalPosition: {x: -0.015383411, y: 4.9960034e-18, z: -1.9428903e-18}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -96,7 +97,6 @@ Transform:
   - {fileID: 4405169574915231488}
   - {fileID: 7463769004495679311}
   m_Father: {fileID: 1498768090239702965}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &813353365011120728
 GameObject:
@@ -107,7 +107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7463769004495679311}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:BodyFinUpperA_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121,6 +121,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 813353365011120728}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.013825091, y: 0.021521457, z: -0.54028785, w: 0.84109145}
   m_LocalPosition: {x: -0.005491715, y: 0.019704515, z: 3.191891e-17}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -128,7 +129,6 @@ Transform:
   m_Children:
   - {fileID: 2515020863075049710}
   m_Father: {fileID: 5852502040498062157}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1551905662936327692
 GameObject:
@@ -139,7 +139,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6119369007754770829}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:TailFinLowerEnd_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -153,13 +153,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1551905662936327692}
+  serializedVersion: 2
   m_LocalRotation: {x: -5.169879e-26, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0.03284414, y: -7.771561e-18, z: -9.3205214e-18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2142271069314483012}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1596221937565027959
 GameObject:
@@ -170,7 +170,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4686322517498691298}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:TailFinUpperEnd_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -184,13 +184,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1596221937565027959}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1.0339758e-25, z: -0, w: 1}
   m_LocalPosition: {x: -0.042705644, y: 4.440892e-18, z: -9.277341e-18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1656475360728825621}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2204996107975638249
 GameObject:
@@ -201,7 +201,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2142271069314483012}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:TailFinLower_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -215,6 +215,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2204996107975638249}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.066646695, y: 0.09790117, z: 0.34435126, w: 0.9313409}
   m_LocalPosition: {x: -0.0069234115, y: -0.0053832754, z: -7.563395e-18}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -222,7 +223,6 @@ Transform:
   m_Children:
   - {fileID: 6119369007754770829}
   m_Father: {fileID: 3564461714316215350}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2313180191862269802
 GameObject:
@@ -233,7 +233,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7012444561709734545}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:BodyFinSide2_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,6 +247,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2313180191862269802}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.19906011, y: 0.12513857, z: -0.21705945, w: 0.94741786}
   m_LocalPosition: {x: -0.022645527, y: -1.11022296e-17, z: 2.4424906e-17}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -254,7 +255,6 @@ Transform:
   m_Children:
   - {fileID: 843321217234649042}
   m_Father: {fileID: 7647633915391746284}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2413218596418654026
 GameObject:
@@ -266,7 +266,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8239133703692619871}
   - component: {fileID: 8392664998394858840}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:pCube4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -280,13 +280,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2413218596418654026}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 3.1135895, y: 3.1135895, z: 3.1135895}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5144611578104135040}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &8392664998394858840
 SkinnedMeshRenderer:
@@ -375,7 +375,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3266872775963808407}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:BodyFinSide1_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -389,6 +389,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3325436003760850394}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.4255995, y: 0.30627128, z: -0.6869445, w: 0.5031603}
   m_LocalPosition: {x: -0.0040812073, y: -0.021172985, z: 0.0013741186}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -396,7 +397,6 @@ Transform:
   m_Children:
   - {fileID: 3624888628702715936}
   m_Father: {fileID: 1498768090239702965}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3398705384538661770
 GameObject:
@@ -407,7 +407,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5055189473571507951}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:BodyFinSide4_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -421,13 +421,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3398705384538661770}
+  serializedVersion: 2
   m_LocalRotation: {x: -1.3877788e-17, y: 5.551115e-17, z: -8.326673e-17, w: 1}
   m_LocalPosition: {x: -0.018742569, y: 2.6645352e-17, z: 2.220446e-18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 843321217234649042}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3532061495493112442
 GameObject:
@@ -438,7 +438,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1291439127813599450}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:BackB_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -452,6 +452,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3532061495493112442}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.0009951723, y: -0.058861446, z: 0.016875297, w: 0.99812305}
   m_LocalPosition: {x: -0.009212143, y: 1.110223e-18, z: -2.220446e-18}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -459,7 +460,6 @@ Transform:
   m_Children:
   - {fileID: 8954146235318348384}
   m_Father: {fileID: 5852502040498062157}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3727422934712733711
 GameObject:
@@ -470,7 +470,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 843321217234649042}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:BodyFinSide3_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -484,6 +484,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3727422934712733711}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.0698286, y: 0.08582584, z: -0.10068248, w: 0.9887472}
   m_LocalPosition: {x: -0.024521738, y: -2.2204459e-17, z: 2.220446e-18}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -491,7 +492,6 @@ Transform:
   m_Children:
   - {fileID: 5055189473571507951}
   m_Father: {fileID: 7012444561709734545}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4441839648418554544
 GameObject:
@@ -502,7 +502,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3377681346836452026}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:BodyFinUpperAEnd_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -516,13 +516,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4441839648418554544}
+  serializedVersion: 2
   m_LocalRotation: {x: -1.0339758e-25, y: -3.1019273e-25, z: -1.110223e-16, w: 1}
   m_LocalPosition: {x: -0.030241814, y: 8.881784e-18, z: -2.4651902e-33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2515020863075049710}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4650092615236891497
 GameObject:
@@ -533,7 +533,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3816863253753246450}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:BodyFinLowerA1_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -547,6 +547,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4650092615236891497}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0.16788612, w: 0.9858064}
   m_LocalPosition: {x: -0.03947984, y: -9.436896e-18, z: -4.0106805e-17}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -554,7 +555,6 @@ Transform:
   m_Children:
   - {fileID: 2313412181182989173}
   m_Father: {fileID: 4405169574915231488}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4658529197163227991
 GameObject:
@@ -565,7 +565,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2313412181182989173}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:BodyFinLowerAEnd_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -579,13 +579,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4658529197163227991}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.042972177, y: -4.440892e-18, z: -2.9516327e-18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3816863253753246450}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5200101625750390029
 GameObject:
@@ -596,7 +596,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3624888628702715936}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:BodyFinSide2_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -610,6 +610,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5200101625750390029}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.21731023, y: 0.10567563, z: -0.20474312, w: 0.94851947}
   m_LocalPosition: {x: 0.022645527, y: 4.2188474e-17, z: -6.661338e-18}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -617,7 +618,6 @@ Transform:
   m_Children:
   - {fileID: 6992530122247156968}
   m_Father: {fileID: 3266872775963808407}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5469206801640910868
 GameObject:
@@ -628,7 +628,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1498768090239702965}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:Root_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -642,6 +642,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5469206801640910868}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.010304933, y: -0.67647713, z: -0.009467275, w: 0.7363307}
   m_LocalPosition: {x: -6.886114e-13, y: 0.0027232158, z: 0.022687985}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -652,7 +653,6 @@ Transform:
   - {fileID: 7647633915391746284}
   - {fileID: 4966786737192319974}
   m_Father: {fileID: 5144611578104135040}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5489470498816550714
 GameObject:
@@ -663,7 +663,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5144611578104135040}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fish_3_v2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -677,6 +677,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5489470498816550714}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -685,7 +686,6 @@ Transform:
   - {fileID: 8239133703692619871}
   - {fileID: 1498768090239702965}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6300233086203941613
 GameObject:
@@ -696,7 +696,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8954146235318348384}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:BackC_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -710,6 +710,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6300233086203941613}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.00054699345, y: -0.020181408, z: 0.027088357, w: 0.99942917}
   m_LocalPosition: {x: -0.010719934, y: -4.440892e-18, z: 2.7755574e-18}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -717,7 +718,6 @@ Transform:
   m_Children:
   - {fileID: 3564461714316215350}
   m_Father: {fileID: 1291439127813599450}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6404218119822314575
 GameObject:
@@ -728,7 +728,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3564461714316215350}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:BackF_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -742,6 +742,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6404218119822314575}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.0028435166, y: 0.02304523, z: -0.12242681, w: 0.9922059}
   m_LocalPosition: {x: -0.01571431, y: -1.1657341e-17, z: -1.3877788e-17}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -750,7 +751,6 @@ Transform:
   - {fileID: 2142271069314483012}
   - {fileID: 1656475360728825621}
   m_Father: {fileID: 8954146235318348384}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6495587378962822761
 GameObject:
@@ -761,7 +761,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1436797318197221279}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:HeadEnd_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -775,13 +775,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6495587378962822761}
+  serializedVersion: 2
   m_LocalRotation: {x: -2.5849394e-26, y: -2.511e-42, z: 9.7144515e-17, w: 1}
   m_LocalPosition: {x: -0.010524581, y: -8.881784e-18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4966786737192319974}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6940984097267575182
 GameObject:
@@ -792,7 +792,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1656475360728825621}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:TailFinUpper_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -806,6 +806,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6940984097267575182}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.045954652, y: 0.10167371, z: -0.2737708, w: 0.9553011}
   m_LocalPosition: {x: -0.0065251617, y: 0.004243766, z: 7.979728e-18}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -813,7 +814,6 @@ Transform:
   m_Children:
   - {fileID: 4686322517498691298}
   m_Father: {fileID: 3564461714316215350}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7532412923825651343
 GameObject:
@@ -824,7 +824,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2515020863075049710}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:BodyFinUpperA1_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -838,6 +838,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7532412923825651343}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.056220513, y: 0.0045021456, z: 0.07970318, w: 0.9952218}
   m_LocalPosition: {x: -0.026638309, y: -4.440892e-18, z: 9.5236315e-18}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -845,7 +846,6 @@ Transform:
   m_Children:
   - {fileID: 3377681346836452026}
   m_Father: {fileID: 7463769004495679311}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7597049583297656718
 GameObject:
@@ -856,7 +856,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7647633915391746284}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:BodyFinSide1_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -870,6 +870,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7597049583297656718}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.31333342, y: -0.43323046, z: 0.498221, w: 0.68257564}
   m_LocalPosition: {x: -0.0040812073, y: -0.021172985, z: -0.0013741186}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -877,7 +878,6 @@ Transform:
   m_Children:
   - {fileID: 7012444561709734545}
   m_Father: {fileID: 1498768090239702965}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8157671407711257505
 GameObject:
@@ -888,7 +888,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6638664588120959555}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:BodyFinSide4_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -902,13 +902,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8157671407711257505}
+  serializedVersion: 2
   m_LocalRotation: {x: 8.326673e-17, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: 0.018742569, y: -8.881784e-18, z: 4.440892e-18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6992530122247156968}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8930476511174395007
 GameObject:
@@ -919,7 +919,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4966786737192319974}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fish_4_animation:fish4_rig:Head_M
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -933,6 +933,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8930476511174395007}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.01413436, y: 0.0018077999, z: 0.99181896, w: -0.12685472}
   m_LocalPosition: {x: 0.0034181168, y: -0.0004125016, z: 4.6813465e-12}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -940,5 +941,4 @@ Transform:
   m_Children:
   - {fileID: 1436797318197221279}
   m_Father: {fileID: 1498768090239702965}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
