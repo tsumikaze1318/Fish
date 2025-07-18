@@ -1,5 +1,5 @@
 using Cysharp.Threading.Tasks;
-using PrimeTween;
+using System.Threading;
 using UniRx;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,29 +10,37 @@ namespace FishMovement
     {
         private FishMovementModel _model;
         private FishMovementView _view;
+        private CancellationTokenSource _cancellationTokenSource = new CancellationTokenSource();
 
         public FishMovementPresenter(FishMovementModel model, FishMovementView view)
         {
             _model = model;
             _view = view;
 
-            _view.IsMoving.Subscribe(b =>
+            _view.IsMoving.Subscribe(x =>
             {
-                if (!b)
+                if (!x)
                 {
-                    _model.SetMoveTarget();
+                    var ct = _cancellationTokenSource.Token;
+                    _model.SetMoveTarget(ct);
                 }
             });
-            _model.MoveTargetProperty.Subscribe(x => 
+            _model.MoveTargetProperty.Subscribe(x =>
             {
                 _view.MoveFish(x);
             });
         }
 
-        //public float GetFishPosition()
-        //{
-        //    return 
-        //}
+        public void CancelFishMoving()
+        {
+            _cancellationTokenSource?.Cancel();
+            _view.FishUp();
+        }
+
+        public float GetFishPositionX()
+        {
+            return _model.MoveTargetProperty.Value;
+        }
     }
 }
 
@@ -58,20 +66,19 @@ namespace FishMovement
 
             Vector3 vector3 = Vector3.one;
             vector3.x
-                = _preTarget < target 
+                = _preTarget < target
                 ? -1 : 1;
             transform.localScale = vector3;
-            float duration = Mathf.Abs(_preTarget - target) * 5;
             _preTarget = target;
 
-            Tween.LocalPositionX(transform
-                , 700 * target
-                , duration
-                , Ease.Linear)
-                .OnComplete(() =>
-                {
-                    _isMoving.Value = false;
-                });
+            Vector3 transformPosition = transform.localPosition;
+            transformPosition.x = target * 700;
+            transform.localPosition = transformPosition;
+        }
+
+        public void FishUp()
+        {
+            transform.parent.gameObject.SetActive(false);
         }
     }
 }
@@ -84,20 +91,47 @@ namespace FishMovement
         private ReactiveProperty<float> _moveTargetProperty = new ReactiveProperty<float>();
         public IReadOnlyReactiveProperty<float> MoveTargetProperty => _moveTargetProperty;
 
-        private float _preTarget = 0;
+        private float _preTarget = -1;
+        private const float MOVE_SPEED = 0.2f;
 
-        public async void SetMoveTarget()
+        public async void SetMoveTarget(CancellationToken token)
         {
-            // -1から1の範囲でランダムに移動先を決定
-            float randTarget = Random.Range(-1f, 1f);
+            try { token.ThrowIfCancellationRequested(); }
+            catch { return; }
 
-            int sign = _preTarget < randTarget ? 1 : -1;
+            _moveTargetProperty.Value = _preTarget;
 
-            while ( _moveTargetProperty.Value > randTarget)
+            // 今の自分の位置から±0.1の距離へ移動
+            // 真ん中に近づくほど端へ帰る確率が上がる
+            float rand = Random.Range(0f, 1f);
+            int sign = _preTarget < 0.5f ? 1 : -1;
+            float distance = 0;
+
+            if (rand < Mathf.Abs(_preTarget))
             {
-                _moveTargetProperty.Value += Time.deltaTime * sign;
-                await UniTask.Yield();
+                // 真ん中へ移動していく
+                while (Mathf.Abs(distance) < 0.1f)
+                {
+                    distance += Time.deltaTime * sign * MOVE_SPEED;
+                    _moveTargetProperty.Value = distance + _preTarget;
+                    try { await UniTask.Yield(cancellationToken: token); }
+                    catch { return; }
+                }
             }
+            else
+            {
+                // 端へ移動していく
+                while (Mathf.Abs(distance) < 0.1f)
+                {
+                    distance += Time.deltaTime * -sign * MOVE_SPEED;
+                    _moveTargetProperty.Value = distance + _preTarget;
+                    try { await UniTask.Yield(cancellationToken: token); }
+                    catch { return; }
+                }
+            }
+            
+            _preTarget = _moveTargetProperty.Value;
+            SetMoveTarget(token);
         }
     }
 }

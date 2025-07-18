@@ -13,6 +13,14 @@ namespace FishMovement
 
             _presenter = new FishMovementPresenter(model, view);
         }
+
+        private void Update()
+        {
+            if (Input.GetMouseButtonDown(0) && Mathf.Abs(_presenter.GetFishPositionX()) < 0.5f)
+            {
+                _presenter.CancelFishMoving();
+            }
+        }
     }
 }
 
