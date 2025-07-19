@@ -35,7 +35,7 @@ public class FishResult : MonoBehaviour
         catch { return; }
 
         GameManager.Instance.SetGameState(GameState.Show);
-
+        SeManager.Instance.PlaySE(6, 1);
         _fish = Instantiate(_fishDictionary.GetRandomFish(), new Vector3(0, 3, -1), Quaternion.Euler(0, -90, -90), transform);
         _overlapImage.enabled = true;
         _haloParticle.Play();

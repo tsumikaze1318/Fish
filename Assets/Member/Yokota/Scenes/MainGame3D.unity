@@ -224,41 +224,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4436367642045273964, guid: 8f33c479b65df4642b249dab2f386535,
-        type: 3}
-      propertyPath: seList.Array.size
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4436367642045273964, guid: 8f33c479b65df4642b249dab2f386535,
-        type: 3}
-      propertyPath: seList.Array.data[1]
-      value: 
-      objectReference: {fileID: 8300000, guid: 6e2f888864f0d6b44ac34a197ba97dec, type: 3}
-    - target: {fileID: 4436367642045273964, guid: 8f33c479b65df4642b249dab2f386535,
-        type: 3}
-      propertyPath: seList.Array.data[2]
-      value: 
-      objectReference: {fileID: 8300000, guid: 973167e047d0ffa4ba829f138c336e27, type: 3}
-    - target: {fileID: 4436367642045273964, guid: 8f33c479b65df4642b249dab2f386535,
-        type: 3}
-      propertyPath: seList.Array.data[3]
-      value: 
-      objectReference: {fileID: 8300000, guid: c27be86710282a248b99af8d12bcd680, type: 3}
-    - target: {fileID: 4436367642045273964, guid: 8f33c479b65df4642b249dab2f386535,
-        type: 3}
-      propertyPath: seList.Array.data[4]
-      value: 
-      objectReference: {fileID: 8300000, guid: 3ec7e55fa2419094b9a38ad9eb3769e3, type: 3}
-    - target: {fileID: 4436367642045273964, guid: 8f33c479b65df4642b249dab2f386535,
-        type: 3}
-      propertyPath: seList.Array.data[5]
-      value: 
-      objectReference: {fileID: 8300000, guid: 527735ee5ad6ada4899e1ef0769b904f, type: 3}
-    - target: {fileID: 4436367642045273964, guid: 8f33c479b65df4642b249dab2f386535,
-        type: 3}
-      propertyPath: seList.Array.data[6]
-      value: 
-      objectReference: {fileID: 8300000, guid: 527735ee5ad6ada4899e1ef0769b904f, type: 3}
     - target: {fileID: 7994798874975478011, guid: 8f33c479b65df4642b249dab2f386535,
         type: 3}
       propertyPath: m_Name
